@@ -81,10 +81,10 @@
 |  | Name 	|  Description 	| Author  	|  Stars 	|
 |---	|---	|---	|---	|---	|
 | 1 |  [Ventoy](https://github.com/ventoy/Ventoy) | A new bootable USB solution. | ventoy | 25838 |
-| 2 |  [linux](https://github.com/torvalds/linux) | Linux kernel source tree | torvalds | 117721 |
+| 2 |  [linux](https://github.com/torvalds/linux) | Linux kernel source tree | torvalds | 117722 |
 | 3 |  [surge](https://github.com/surge-synthesizer/surge) | Synthesizer plug-in (previously released as Vember Audio Surge) | surge-synthesizer | 1605 |
 | 4 |  [NTop](https://github.com/gsass1/NTop) | 💻 htop-like system-monitor for Windows with Vi-keybindings. | gsass1 | 566 |
-| 5 |  [scrcpy](https://github.com/Genymobile/scrcpy) | Display and control your Android device | Genymobile | 54069 |
+| 5 |  [scrcpy](https://github.com/Genymobile/scrcpy) | Display and control your Android device | Genymobile | 54070 |
 | 6 |  [gedosato](https://github.com/PeterTh/gedosato) | The Generic DownSampling Tool | PeterTh | 412 |
 | 7 |  [pokeemerald](https://github.com/pret/pokeemerald) | Decompilation of Pokémon Emerald | pret | 896 |
 
@@ -282,7 +282,7 @@
 | 13 |  [1.16](https://github.com/Faithful3D/1.16) | Official repository for Faithful 3D 1.16 to 1.16.4 | Faithful3D | 25 |
 | 14 |  [GameDev-Resources](https://github.com/Kavex/GameDev-Resources) | :video_game: :game_die: A wonderful list of Game Development resources. | Kavex | 1911 |
 | 15 |  [Projects](https://github.com/karan/Projects) | :page_with_curl: A list of practical projects that anyone can solve in any programming language. | karan | 36453 |
-| 16 |  [gitignore](https://github.com/github/gitignore) | A collection of useful .gitignore templates | github | 123033 |
+| 16 |  [gitignore](https://github.com/github/gitignore) | A collection of useful .gitignore templates | github | 123032 |
 | 17 |  [Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | Hack-with-Github | 45797 |
 | 18 |  [Awesome-WSL](https://github.com/sirredbeard/Awesome-WSL) | Awesome list dedicated to Windows Subsystem for Linux | sirredbeard | 3324 |
 | 19 |  [awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) | A curated list of awesome AutoHotkey libraries, library distributions, scripts, tools and resources. | ahkscript | 1755 |
@@ -436,7 +436,7 @@
 | 3 |  [bash-preexec](https://github.com/rcaloras/bash-preexec) | ⚡ preexec and precmd functions for Bash just like Zsh. | rcaloras | 539 |
 | 4 |  [PowerShell-Bash-Dual-Script-Templates](https://github.com/chrisfcarroll/PowerShell-Bash-Dual-Script-Templates) | Hold both bash and PowerShell code in a single script file and/or make a PowerShell.ps1 script executable on windows, *nix, linux, macOs | chrisfcarroll | 4 |
 | 5 |  [init-dotfiles](https://github.com/Vaelatern/init-dotfiles) | Quickly get your dotfiles up and running | Vaelatern | 172 |
-| 6 |  [powerlevel10k](https://github.com/romkatv/powerlevel10k) | A Zsh theme | romkatv | 20504 |
+| 6 |  [powerlevel10k](https://github.com/romkatv/powerlevel10k) | A Zsh theme | romkatv | 20505 |
 | 7 |  [Fallout3Terminal](https://github.com/fohtla/Fallout3Terminal) | A recreation of the Fallout 3 terminal via a linux bash script! Requires cool-retro-term, sox and pv installed as packages. | fohtla | 213 |
 | 8 |  [docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) | Docker image that provides a Minecraft Server that will automatically download selected version at startup | itzg | 3114 |
 | 9 |  [dynamic-wallpaper](https://github.com/adi1090x/dynamic-wallpaper) | A simple bash script to set wallpapers according to current time, using cron job scheduler. | adi1090x | 961 |
