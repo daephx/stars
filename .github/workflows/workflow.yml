@@ -16,7 +16,16 @@ jobs:
           node-version: 16
       - name: "Install Package"
         run: "npm install --global stargazed"
-      - name: "Update Repo"
+      - run: echo "::set-output name=date::$(date -u +'%Y-%m-%d %H:%m:%S UTC')"
+        id: date
+      - name: "Update Repository"
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        run: 'stargazed --username  "daephx" --token ${GITHUB_TOKEN} --repo "stars" --message "stargazed update by GitHub Actions Workflow" --sort'
+          COMMIT_LABEL: "Automated Publish: ${{ steps.date.outputs.date }}"
+        run: >
+          stargazed
+          --username "daephx"
+          --token ${GITHUB_TOKEN}
+          --repo "stars"
+          --message ${COMMIT_LABEL}
+          --sort
