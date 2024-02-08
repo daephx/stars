@@ -20,11 +20,12 @@ jobs:
         id: date
       - name: "Update Repository"
         env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           COMMIT_LABEL: "Automated Publish: ${{ steps.date.outputs.date }}"
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          GITHUB_USER: "${{ github.actor }}"
         run: >
           stargazed
-          --username "daephx"
+          --username ${GITHUB_USER}
           --token ${GITHUB_TOKEN}
           --repo "stars"
           --message ${COMMIT_LABEL}
